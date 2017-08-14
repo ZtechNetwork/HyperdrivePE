@@ -1,0 +1,5 @@
+name: HyperdrivePE
+main: ZtechNetwork\Main
+api: [3.0.0-ALPHA7]
+version: 1.0.0
+author: ZtechNetwork[LeronDoesGM]
