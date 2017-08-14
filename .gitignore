@@ -23,3 +23,7 @@
 /app/Config/core.php
 /app/Config/database.php
 /vendors/*
+.buildpath
+.project
+.settings/org.eclipse.php.core.prefs
+.settings/org.eclipse.wst.common.project.facet.core.xml
