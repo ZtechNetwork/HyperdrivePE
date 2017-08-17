@@ -1,5 +1,7 @@
 # Hyperdrive PE by [LeronDoesGaming](https://www.github.com/LeronDoesGM)
 
+Library status: [![Poggit-CI](https://poggit.pmmp.io/ci.badge/LeronDoesGM/HyperdrivePE/HyperdrivePE)](https://poggit.pmmp.io/ci/LeronDoesGM/HyperdrivePE/HyperdrivePE)
+
 #### Current Version:
 v1.0.0
 
