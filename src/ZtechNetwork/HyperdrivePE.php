@@ -160,7 +160,7 @@ class HyperdrivePE extends PluginBase implements Listener {
 							else
 							{
 								$player->sendMessage($this->prefix . "HyperdrivePE Commands!");
-								$player->sendMessage($this->prefix . "/hyper create [world] Creates an hyperdrive map in the specified world!");
+								$player->sendMessage($this->prefix . "/hyper create [world] Creates a hyperdrive game in the specified world!");
 								$player->sendMessage($this->prefix . "/hyper leave Allows player to leave the current game.");
 							}
 						}
@@ -172,7 +172,7 @@ class HyperdrivePE extends PluginBase implements Listener {
 					else
 					{
 						$player->sendMessage($this->prefix . "HyperdrivePE Commands!");
-						$player->sendMessage($this->prefix . "/hyper create [world] Creates an hyperdrive map in the specified world!");
+						$player->sendMessage($this->prefix . "/hyper create [world] Creates a hyperdrive game in the specified world!");
 						$player->sendMessage($this->prefix . "/hyper leave Allows player to leave the current game.");
 					}
 				}
