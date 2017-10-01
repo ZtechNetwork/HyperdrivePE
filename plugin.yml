@@ -1,6 +1,6 @@
 name: HyperdrivePE
 main: ZtechNetwork\HyperdrivePE
-api: [3.0.0-ALPHA7, 3.0.0-ALPHA8, 3.0.0-ALPHA9]
+api: [3.0.0-ALPHA7, 3.0.0-ALPHA8, 3.0.0-ALPHA9, 4.0.0-ALPHA1]
 version: 1.0.0
 author: ZtechNetwork[LeronDoesGM]
 
