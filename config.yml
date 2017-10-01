@@ -1,7 +1,4 @@
 ---
-maps:
+courses:
 
-#If ON, lightning will strike for every checkpoint(Will be changed to fireworks in 1.2 update)
-#If OFF, then no lightning
-lightning_effect: ON
 ...

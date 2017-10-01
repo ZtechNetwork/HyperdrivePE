@@ -2,6 +2,7 @@
 namespace ZtechNetwork;
 
 use pocketmine\plugin\PluginBase;
+use pocketmine\pligin\Plugin;
 use pocketmine\scheduler\PluginTask;
 use pocketmine\event\plugin\PluginEvent;
 use pocketmine\entity\Entity;
@@ -31,7 +32,7 @@ class HyperdrivePE extends PluginBase implements Listener {
 	
 	public $prefix = C::GRAY . "[" . C::WHITE . C::BOLD . "S" . C::RED . "G" . C::RESET . C::GRAY . "] ";
 	public $mode = 0;
-	public $maps = array();
+	public $courses = array();
 	public $currentLevel = "";
 	
 	public function onEnable()
@@ -41,11 +42,11 @@ class HyperdrivePE extends PluginBase implements Listener {
 		$this->saveResource("config.yml");
 		@mkdir($this->getDataFolder());
 		$config = new Config($this->getDataFolder() . "/config.yml", Config::YAML);
-		if($config->get("maps")!=null)
+		if($config->get("courses")!=null)
 		{
-			$this->maps = $config->get("maps");
+			$this->courses = $config->get("courses");
 		}
-		foreach($this->maps as $lev)
+		foreach($this->courses as $lev)
 		{
 			$this->getServer()->loadLevel($lev);
 		}
@@ -82,7 +83,7 @@ class HyperdrivePE extends PluginBase implements Listener {
 	{
 		$player = $event->getPlayer();
 		$level = $player->getLevel()->getFolderName();
-		if(in_array($level,$this->maps))
+		if(in_array($level,$this->courses))
 		{
 			$config = new Config($this->getDataFolder() . "/config.yml", Config::YAML);
 			$sofar = $config->get($level . "StartTime");
@@ -113,7 +114,7 @@ class HyperdrivePE extends PluginBase implements Listener {
 	{
 		$player = $event->getPlayer();
 		$level = $player->getLevel()->getFolderName();
-		if(in_array($level,$this->maps))
+		if(in_array($level,$this->courses))
 		{
 			$event->setCancelled(true);
 		}
@@ -123,7 +124,7 @@ class HyperdrivePE extends PluginBase implements Listener {
 	{
 		$player = $event->getPlayer();
 		$level = $player->getLevel()->getFolderName();
-		if(in_array($level,$this->maps))
+		if(in_array($level,$this->courses))
 		{
 			$event->setCancelled(true);
 		}
@@ -145,7 +146,7 @@ class HyperdrivePE extends PluginBase implements Listener {
 								{
 									$this->getServer()->loadLevel($args[1]);
 									$this->getServer()->getLevelByName($args[1])->loadChunk($this->getServer()->getLevelByName($args[1])->getSafeSpawn()->getFloorX(), $this->getServer()->getLevelByName($args[1])->getSafeSpawn()->getFloorZ());
-									array_push($this->maps,$args[1]);
+									array_push($this->courses,$args[1]);
 									$this->currentLevel = $args[1];
 									$this->mode = 1;
 									$player->sendMessage($this->prefix . "You are about to register a hyperdrive map, tap to set checkpoints.");
