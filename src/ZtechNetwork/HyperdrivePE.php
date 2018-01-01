@@ -28,7 +28,7 @@ use pocketmine\level\Position;
 
 class HyperdrivePE extends PluginBase implements Listener {
 	
-	const VERSION = "1.0.0";
+	const VERSION = "1.0.0.0";
 	
 	public $prefix = C::GRAY . "[" . C::WHITE . C::BOLD . "S" . C::RED . "G" . C::RESET . C::GRAY . "] ";
 	public $mode = 0;
@@ -161,8 +161,8 @@ class HyperdrivePE extends PluginBase implements Listener {
 							else
 							{
 								$player->sendMessage($this->prefix . "HyperdrivePE Commands!");
-								$player->sendMessage($this->prefix . "/hyper create [world] Creates a hyperdrive game in the specified world!");
-								$player->sendMessage($this->prefix . "/hyper leave Allows player to leave the current game.");
+								$player->sendMessage($this->prefix . "/hyper <create> [world] Creates a hyperdrive game in the specified world!");
+								$player->sendMessage($this->prefix . "/hyper <quit> Allows player to quit the current game.");
 							}
 						}
 						else
@@ -173,8 +173,8 @@ class HyperdrivePE extends PluginBase implements Listener {
 					else
 					{
 						$player->sendMessage($this->prefix . "HyperdrivePE Commands!");
-						$player->sendMessage($this->prefix . "/hyper create [world] Creates a hyperdrive game in the specified world!");
-						$player->sendMessage($this->prefix . "/hyper leave Allows player to leave the current game.");
+						$player->sendMessage($this->prefix . "/hyper <create> [world] Creates a hyperdrive game in the specified world!");
+						$player->sendMessage($this->prefix . "/hyper <quit> Allows player to quit the current game.");
 					}
 				}
 				return true;
