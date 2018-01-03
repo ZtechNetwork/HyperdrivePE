@@ -3,11 +3,15 @@
 Library status: [![Poggit-CI](https://poggit.pmmp.io/ci.badge/ZtechNetwork/HyperdrivePE/HyperdrivePE)](https://poggit.pmmp.io/ci/ZtechNetwork/HyperdrivePE/HyperdrivePE)
 
 #### Current Version:
-v1.0.0
+v1.0.0.0 [BETA]
+
+#### Pocketmine API Support
+- 3.0.0-ALPHA9
+- 3.0.0-ALPHA10
 
 ## Commands
-- /hyper create [world] - Creates a hyperdrive game in the specified world!
-- /hyper leave - Allows the player to leave the game while spectating or while waiting for game to start.
+- /hyper create [world] - Creates a hyperdrive game in the specified world.
+- /hyper quit - Allows the player to quit the game while spectating or while waiting for game to start.
 
 ## Licensing information
 
