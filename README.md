@@ -5,6 +5,9 @@ Library status: [![Poggit-CI](https://poggit.pmmp.io/ci.badge/ZtechNetwork/Hyper
 #### Current Version:
 v1.0.0.0 [BETA]
 
+#### Status
+Unusable
+
 #### Pocketmine API Support
 - 3.0.0-ALPHA9
 - 3.0.0-ALPHA10
