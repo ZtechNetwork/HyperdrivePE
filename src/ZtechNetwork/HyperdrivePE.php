@@ -130,7 +130,7 @@ class HyperdrivePE extends PluginBase implements Listener {
 		}
 	}
 	
-	public function onCommand(CommandSender $player, Command $cmd, string $label, array $args) : bool{
+	public function onCommand(CommandSender $player, Command $cmd, string $label, array $args) : bool {
 		switch($cmd->getName()){
 			case "hyper":
 				if($player->isOp())
