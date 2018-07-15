@@ -1,10 +1,11 @@
 name: HyperdrivePE
 main: ZtechNetwork\HyperdrivePE
-api: [3.0.0-ALPHA9, 3.0.0-ALPHA10, 4.0.0-ALPHA1]
+api: [3.0.0]
 version: 1.0.0
-author: ZtechNetwork[LeronDoesGM]
+author: ZtechNetwork [Leron Does Gaming]
+website: https://github.com/ZtechNetwork/HyperdrivePE
 
 commands:
     hyper:
-        usage: /hyper <quit/create>
+        usage: /hyper <quit/create/help>
         description: Main Command for creating hyperdrive games and leaving the game.
