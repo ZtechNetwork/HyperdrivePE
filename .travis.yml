@@ -8,10 +8,19 @@ before_script:
  
 before_install:
   - chmod +x tests/travis.sh
+  
+after_success:
+  - wget https://raw.githubusercontent.com/k3rn31p4nic/travis-ci-discord-webhook/master/send.sh
+  - chmod +x send.sh
+  - ./send.sh success $WEBHOOK_URL
+after_failure:
+  - wget https://raw.githubusercontent.com/k3rn31p4nic/travis-ci-discord-webhook/master/send.sh
+  - chmod +x send.sh
+  - ./send.sh failure $WEBHOOK_URL
 
 script:
  - ./tests/travis.sh
 
 notifications:
  email: false
- webhooks: https://discordapp.com/api/webhooks/468015163677736969/Qb5r1VMO2cPLb_LnhpUeej4pZf_hT_GElzSTn6IMjqLbo-izSvVqXizWXnUqOmsfbNiL
+ webhooks: 
