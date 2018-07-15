@@ -14,4 +14,4 @@ script:
 
 notifications:
  email: false
- webhooks: http://melban.com/webhook/discord.php
+ webhooks: https://discordapp.com/api/webhooks/468015163677736969/Qb5r1VMO2cPLb_LnhpUeej4pZf_hT_GElzSTn6IMjqLbo-izSvVqXizWXnUqOmsfbNiL
