@@ -1,4 +1,4 @@
-# Hyperdrive PE by [LeronDoesGaming](https://www.github.com/LeronDoesGM)
+# Hyperdrive PE by [LeronDoesGaming](https://www.github.com/LeronDoesGaming)
 
 Library status: [![Poggit-CI](https://poggit.pmmp.io/ci.badge/ZtechNetwork/HyperdrivePE/HyperdrivePE)](https://poggit.pmmp.io/ci/ZtechNetwork/HyperdrivePE/HyperdrivePE)
 
