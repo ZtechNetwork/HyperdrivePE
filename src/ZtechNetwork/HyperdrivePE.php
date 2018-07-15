@@ -3,7 +3,7 @@ namespace ZtechNetwork;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\plugin\Plugin;
-use pocketmine\scheduler\PluginTask;
+use pocketmine\scheduler\Task;
 use pocketmine\event\plugin\PluginEvent;
 use pocketmine\entity\Entity;
 use pocketmine\entity\Effect;
