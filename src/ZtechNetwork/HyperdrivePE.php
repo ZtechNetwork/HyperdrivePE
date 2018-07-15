@@ -271,7 +271,7 @@ class HyperdrivePE extends PluginBase implements Listener {
 					$this->saveResource("config.yml");
 				}
 		}
-		class RefreshSigns extends PluginTask {
+		class RefreshSigns extends Task {
 	public $prefix = C::GRAY . "[" . C::WHITE . C::BOLD . "S" . C::RED . "G" . C::RESET . C::GRAY . "] ";
 	
 	public function __construct($plugin)
@@ -308,7 +308,7 @@ class HyperdrivePE extends PluginBase implements Listener {
 				}
 			}
 		}
-		class GameSender extends PluginTask {
+		class GameSender extends Task {
 	public $prefix = C::GRAY . "[" . C::WHITE . C::BOLD . "S" . C::RED . "G" . C::RESET . C::GRAY . "] ";
 	public function __construct($plugin)
 			{
