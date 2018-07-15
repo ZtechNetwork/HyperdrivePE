@@ -1,18 +1,19 @@
-# Hyperdrive PE by [LeronDoesGaming](https://www.github.com/LeronDoesGaming)
+# Hyperdrive PE for PocketMine-MP
 
-Library status: [![Poggit-CI](https://poggit.pmmp.io/ci.badge/ZtechNetwork/HyperdrivePE/HyperdrivePE)](https://poggit.pmmp.io/ci/ZtechNetwork/HyperdrivePE/HyperdrivePE)
+Build status: [![Poggit-CI](https://poggit.pmmp.io/ci.badge/ZtechNetwork/HyperdrivePE/HyperdrivePE)](https://poggit.pmmp.io/ci/ZtechNetwork/HyperdrivePE/HyperdrivePE)
+[![Build Status](https://travis-ci.org/ZtechNetwork/HyperdrivePE.svg?branch=master)](https://travis-ci.org/ZtechNetwork/HyperdrivePE)
 
 #### Current Version:
-v1.0.0.0 [BETA]
+v1.0.0
 
 #### Status
 Unusable
 
 #### Pocketmine API Support
-- 3.0.0-ALPHA9
-- 3.0.0-ALPHA10
+- 3.0.X
 
 ## Commands
+- /hyper help - Displays a list of commands.
 - /hyper create [world] - Creates a hyperdrive game in the specified world.
 - /hyper quit - Allows the player to quit the game while spectating or while waiting for game to start.
 
