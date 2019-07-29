@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace HyperdrivePE\EventListener;
+namespace Hyperdrive;
 
 use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerRespawnEvent;

@@ -1,5 +1,5 @@
 name: HyperdrivePE
-main: ZtechNetwork\Main
+main: Hyperdrive\Main
 version: 0.0.1
 api: [3.9.0]
 

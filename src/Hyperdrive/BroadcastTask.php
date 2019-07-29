@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace HyperdrivePE\BroadcastTask;
+namespace Hyperdrive;
 
 use pocketmine\scheduler\Task;
 use pocketmine\Server;
