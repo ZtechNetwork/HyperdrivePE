@@ -1,11 +1,34 @@
 name: HyperdrivePE
-main: ZtechNetwork\HyperdrivePE
-api: [3.0.0]
-version: 1.0.0
-author: ZtechNetwork [Leron Does Gaming]
+main: ZtechNetwork\Main
+version: 0.0.1
+api: [3.9.0]
+
+load: POSTWORLD
+author: Ztech Network
 website: https://github.com/ZtechNetwork/HyperdrivePE
+description: A port from RSMV's Java Hyperdrive plugin.
 
 commands:
-    hyper:
-        usage: /hyper <quit/create/help>
-        description: Main Command for creating hyperdrive games and leaving the game.
+  hypercreate:
+    description: Creates a hyperdrive mini-game in the specified world.
+    usage: /hypercreate <world>
+    permission: hyperdrive.cmd.create
+  hyperdel:
+    description: Removes the hyperdrive minigame from the specified world.
+    usage: /hyperdel <world>
+    permission: hyperdrive.cmd.delete
+  hyperleave:
+    description: Forfeits the player and returns them to the lobby.
+    usage: /hyperleave
+    permission: hyperdrive.cmd.leave
+
+permissions:
+  hyperdrive.cmd.create:
+    description: "Allows the user to use the hyperdrive create command."
+    default: op
+  hyperdrive.cmd.delete:
+    description: "Allows the user to use the hyperdrive delete command."
+    default: op
+  hyperdrive.cmd.leave:
+    description: "Allows the user to use the hyperdrive leave command."
+    default: true
