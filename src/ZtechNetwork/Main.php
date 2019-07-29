@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace HyperdrivePE;
+namespace HyperdrivePE\Main;
 
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
