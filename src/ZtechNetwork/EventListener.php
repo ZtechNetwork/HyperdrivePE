@@ -7,7 +7,7 @@ namespace HyperdrivePE;
 use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerRespawnEvent;
 
-class ExampleListener implements Listener{
+class EventListener implements Listener{
 
 	/** @var Main */
 	private $plugin;
