@@ -1,7 +1,7 @@
 # Hyperdrive PE for PocketMine-MP
 
-Poggit status: [![Poggit-CI](https://poggit.pmmp.io/ci.badge/ZtechNetwork/HyperdrivePE/HyperdrivePE)](https://poggit.pmmp.io/ci/ZtechNetwork/HyperdrivePE/HyperdrivePE)
-Travis status: [![Build Status](https://travis-ci.org/ZtechNetwork/HyperdrivePE.svg?branch=master)](https://travis-ci.org/ZtechNetwork/HyperdrivePE)
+Poggit status: [![Poggit-CI](https://poggit.pmmp.io/ci.badge/ZtechStudios/HyperdrivePE/HyperdrivePE)](https://poggit.pmmp.io/ci/ZtechStudios/HyperdrivePE/HyperdrivePE)
+Travis status: [![Build Status](https://travis-ci.org/ZtechStudios/HyperdrivePE.svg?branch=master)](https://travis-ci.org/ZtechStudios/HyperdrivePE)
 
 #### Current Version:
 v0.0.1
